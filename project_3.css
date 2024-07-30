@@ -1,0 +1,113 @@
+
+body {
+    background-color: #EDF7F7;
+    max-width: 800px;
+        text-align: center;
+        margin: 0 auto;
+        padding: 18px;
+        border-radius: 20px;
+    
+}
+h1 {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-size:40px;
+    display:flex;
+    justify-content: left;
+}
+
+h2 {
+font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color:gray;
+    font-size:20px;
+    display: flex;
+    justify-content: left;
+}
+
+p {
+    font-family: "Nunito", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+text-align:center;
+
+}
+
+ul {
+    font-family: "Nunito", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 100;
+        font-style: normal;
+        display: flex;
+        justify-content: space-around;
+}
+
+
+form {
+    display:flex;
+    justify-content: center;
+    margin: 60 auto;
+    padding: 20px;
+    border: 18px;
+    border-radius: 2px;
+    
+}
+
+.form_group_1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 18px;
+    border-radius: 20px;
+    background-color:snow;
+}
+.current_celsius {
+    font-family: "Nunito", sans-serif;
+    font-size: 60px;
+    font-weight:600;
+    position: relative;
+    right: -250px;
+   top:-120px;
+    color: black;
+}
+
+.sunday_humidity {
+    color:red;
+}
+
+.submit_button {
+    background-color:#B6C3C3;
+    padding: 20px 45px;
+    border:18px;
+    border-radius: 12px;
+    font-size:18px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.submit_button:hover {
+    cursor: pointer;
+    background: white;
+}
+
+.search_form {
+    background-color:white;
+        padding: 20px 220px;
+        border: 18px;
+        border-radius: 12px;
+        font-size:16px;
+        font-family: 'Courier New', Courier, monospace;
+      
+}
+
+.search_form:hover {
+    cursor:pointer;
+    background:snow;
+  
+}

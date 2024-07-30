@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather app</title>
+    <link rel="stylesheet" href="project_3.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="form_group_1">
+          <form>
+            <input
+              id="citySearching"
+              type="search"
+              class="search_form"
+              placeholder="Enter a city..."
+              required
+            />
+            <input type="submit" class="submit_button" value="Search" />
+          </form>
+        </div>
+      </header>
+
+      <hr />
+      <h1>Heidelberg</h1>
+      <h2>
+        <p>
+          Sunday 19:10, sunny, few clouds <br />
+          Humidity: <span class="sunday_humidity">72%</span>, Wind:
+          <span class="sunday_humidity">4.52km/h</span>
+          <br />
+        </p>
+      </h2>
+
+      <div class="current_celsius">🌥️ 24°C</div>
+
+      <div class="weather_forecast">
+        <ul>
+          <li>
+            Sunday <br />
+            🌦️ <br />
+            24°C / 11°C
+          </li>
+          <li>
+            Monday <br />
+            🌤️ <br />26°C / 15°C
+          </li>
+          <li>
+            Tuesday <br />
+            🌤️ <br />28°C / 15°C
+          </li>
+          <li>
+            Wednesday <br />
+            ⛈️ <br />28°C / 15°C
+          </li>
+          <li>
+            Thursday <br />
+            🌦️<br />
+            28°C / 16°C
+          </li>
+        </ul>
+      </div>
+
+      <hr />
+
+      <footer class="footer_one">
+        <p>this project was coded by Melissa B. and is hosted on ...</p>
+      </footer>
+    </div>
+    <script src="src/project_3.js"></script>
+  </body>
+</html>
